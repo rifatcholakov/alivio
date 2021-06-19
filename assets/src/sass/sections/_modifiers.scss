@@ -1,0 +1,31 @@
+.align-vertically {
+    align-items: center;
+}
+
+.align-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-border-bottom {
+    border-bottom: 1px solid #D6D6D6;
+}
+
+.section-reverse {
+    @media screen and (max-width: $breakpoint-large) {
+        .entry-media {
+            order: 2;
+        }
+
+        .entry {
+            order: 1;
+        }
+    }
+}
+
+.section-full-width {
+    @media screen and (max-width: $breakpoint-large) {
+        padding-right: 2em;
+        padding-left: 2em;
+    }
+}

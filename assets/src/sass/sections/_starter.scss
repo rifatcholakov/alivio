@@ -1,0 +1,17 @@
+.section-starter {
+    .entry {
+        max-width: 27.5em;
+    }
+
+    @media screen and (max-width: $breakpoint-desktop) {
+        .entry {
+            margin: 0 auto;
+        } 
+    }
+
+    @media screen and (max-width: $breakpoint-medium) {        
+        .cta-group {
+            text-align: left;
+        }
+    }
+}

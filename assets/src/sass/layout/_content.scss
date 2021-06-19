@@ -1,0 +1,9 @@
+.content-wrapper {
+    max-width: 86.9375em;
+    margin: 0 auto;
+    padding: 0 4em;
+
+    @media screen and (max-width: $breakpoint-small) {
+        padding: 0 1em;
+    }
+}

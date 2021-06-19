@@ -1,0 +1,14 @@
+.section-gallery-cards {
+    padding-top: 10.375em;
+    padding-bottom: 3.625em;
+
+    .content-wrapper {
+        max-width: 86.9375em;
+        margin: 0 auto;
+    }
+
+    @media screen and (max-width: $breakpoint-medium) {
+        padding-top: 5em;
+        
+    }
+}

@@ -1,0 +1,9 @@
+.section-media {
+    padding-top: 7.5em;
+    padding-bottom: 10.5em;
+
+    @media screen and (max-width: $breakpoint-medium) {
+        padding-top: 3.75em;
+        padding-bottom: 5.25em;
+    }
+}
