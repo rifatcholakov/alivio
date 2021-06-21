@@ -1,0 +1,9 @@
+.section-testimony {
+    padding-top: 13.875em;
+    padding-bottom: 11.5em;
+
+    @media screen and (max-width: $breakpoint-medium) {
+        padding-top: 6.9375em;
+        padding-bottom: 5.75em;
+    }
+}

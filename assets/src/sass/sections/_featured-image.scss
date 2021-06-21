@@ -2,8 +2,7 @@
     background-image: url('/assets/src/images/image-1.png');
     background-repeat: no-repeat;
     padding-top: 10.9375em;
-    // padding-bottom: 21em;
-    height: 100vh;
+    padding-bottom: 21em;
 
     @media screen and (max-width: $breakpoint-medium) {
         padding-top: 5em;

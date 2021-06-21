@@ -604,7 +604,7 @@ hr.clear {
   background-image: url("/assets/src/images/image-1.png");
   background-repeat: no-repeat;
   padding-top: 10.9375em;
-  height: 100vh; }
+  padding-bottom: 21em; }
   @media screen and (max-width: 45em) {
     .section-featured-image {
       padding-top: 5em;
@@ -621,5 +621,13 @@ hr.clear {
 @media screen and (max-width: 45em) {
   .section-starter .cta-group {
     text-align: left; } }
+
+.section-testimony {
+  padding-top: 13.875em;
+  padding-bottom: 11.5em; }
+  @media screen and (max-width: 45em) {
+    .section-testimony {
+      padding-top: 6.9375em;
+      padding-bottom: 5.75em; } }
 
 /*# sourceMappingURL=master.css.map */
